@@ -1,0 +1,22 @@
+{
+	"name": "Rust on VSCode",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"UBUNTU_VERSION": "22.04",
+			"RUST_VERSION": "1.70.0"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer"
+			],
+			"settings": {
+				"[rust]": {
+					"editor.formatOnSave": true
+				}
+			}
+		}
+	}
+}

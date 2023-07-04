@@ -1,0 +1,18 @@
+{
+    "terminal.integrated.allowChords": false,
+    "files.exclude": {
+        "**/.devcontainer/.rs": true
+    },
+    "files.watcherExclude": {
+        "**/.devcontainer/.rs": true
+    },
+    "search.exclude": {
+        "**/.devcontainer/.rs": true
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "cSpell.ignorePaths": [
+        ".vscode",
+        ".devcontainer"
+    ]
+}
